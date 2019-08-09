@@ -1,0 +1,110 @@
+body{
+    background:#222937;
+}
+#tachometer{
+    margin:100px auto;
+    width:500px;
+    height:500px;
+    display: block;
+    position: relative;  
+}
+.inTach {
+    width:500px;
+    height:500px;
+    color:#aaabae;
+    padding:50px 0px 0px 50px;
+}
+.inTach div {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    z-index:1;
+}
+
+.inTach span {
+    padding-left:13px;
+}
+.inTach div b { 
+    transform: rotate(5deg);
+    position: absolute;
+    display: block;
+    left: 50%;
+    height: 15px;
+    
+}
+b.light {
+    background: #666666;
+    width: 35px;
+    margin-top: 50px;
+}
+b.success {
+    position:absolute;
+    z-index:2;
+    margin-top:49.6px;
+}
+[class^="num_"] {
+    display: block;
+    position: absolute;
+    width: 10px;
+    font-size:17px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration:none;
+    margin-top:-25px;
+      
+}
+div.constant {
+    position:absolute;
+    margin-top:-150px;
+    margin-left:100px;
+    font-size:30px;
+}
+.constant p {
+    color:#ffffff;
+}
+.num_1 {transform: rotate(140deg); margin-top:-30px;}
+.num_2 {transform: rotate(112deg); margin-top:-43px; margin-left:10px;}
+.num_3 {transform: rotate(83deg); margin-top:-45px;}
+.num_4 {transform: rotate(55deg); margin-top:-40px;}
+.num_5 {transform: rotate(28deg); margin-top:-35px; margin-left:-3px;}
+.num_6 {transform: rotate(3deg); margin-top:-30px;}
+.num_7 {transform: rotate(332deg);}
+.num_8 {transform: rotate(305deg);}
+.num_9 {transform: rotate(275deg); margin-left:5px;}
+.num_10 {transform: rotate(248deg);}
+.num_11 {transform: rotate(218deg); left:20px;}
+
+.inTach div:nth-child(1) {
+    transform: rotate(215deg);
+}
+.inTach div:nth-child(2) {
+    transform: rotate(243deg);
+}
+.inTach div:nth-child(3) {
+    transform: rotate(271deg);
+}
+.inTach div:nth-child(4) {
+    transform: rotate(299deg);
+}
+.inTach div:nth-child(5) {
+    transform: rotate(327deg);
+}
+.inTach div:nth-child(6) {
+    transform: rotate(355deg);
+}
+.inTach div:nth-child(7) {
+    transform: rotate(23deg);
+}
+.inTach div:nth-child(8) {
+    transform: rotate(51deg);
+}
+.inTach div:nth-child(9) {
+    transform: rotate(79deg);/*---*/
+}
+.inTach div:nth-child(10) {
+    transform: rotate(107deg);
+}
+.inTach div:nth-child(11) {
+    transform: rotate(135deg);
+}
